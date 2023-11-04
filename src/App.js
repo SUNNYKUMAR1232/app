@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import Navbar from "./component/Navbar.jsx"
+import UncontrolledExample from "./component/Middle/ControlledCarousel.jsx";
+import Footer from "./component/Footer/Footer.jsx";
+import Page from "./component/health/second page.jsx";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <image href="./component/Assets/WhatsApp Image 2023-11-04 at 12.15.48_904198ef.jpg"></image>
+      {/* //<UncontrolledExample/> */}
+      <Page/>
+      <Footer/>
     </div>
   );
 }
